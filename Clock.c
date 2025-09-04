@@ -7,9 +7,9 @@ int main(){
 
     system("color 02");
     while (true) {
-        int hour = 0;
-        int min = 0;
-        int sec = 0;
+        unsigned hour ={0};
+        unsigned min ={0};
+        unsigned sec ={0};
 
         printf("How much Hours, Min and Sec ?:\n");
         if (scanf("%u %u %u", &hour, &min, &sec )!= 3) {
